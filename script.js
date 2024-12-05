@@ -1,10 +1,10 @@
-// Dark Mode Toggle
+
 const toggleThemeButton = document.getElementById('toggleTheme');
 toggleThemeButton.addEventListener('click', function() {
   document.body.classList.toggle('dark-mode');
 });
 
-// Project Filtering
+
 const filterButtons = document.querySelectorAll('.filter-btn');
 const projects = document.querySelectorAll('.project');
 
