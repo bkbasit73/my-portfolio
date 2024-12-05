@@ -18,6 +18,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #444;
+    color: #ddd;
+    font-size: 14px;
+    border-top: 2px solid #555;
 }
 
 /* Navigation Styles */
@@ -37,6 +41,10 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a.active {
+    color: #ff6347; /* Highlight active link */
+}
+
 nav ul li a:hover {
     text-decoration: underline;
 }
@@ -51,7 +59,22 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #222;
+}
+
+/* Button Styles */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
 }
 
 /* Media Queries for Mobile Devices */
@@ -70,4 +93,15 @@ h2 {
         padding: 10px;
         margin: 10px;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        margin: 10px 0;
+    }
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
 }
