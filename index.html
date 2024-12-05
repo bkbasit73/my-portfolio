@@ -16,8 +16,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-
-      <button id="toggleTheme" aria-label="Toggle Dark Mode"></button>
+      <button id="toggleTheme">Toggle Dark Mode</button>
     </header>
 
     <main>
@@ -26,9 +25,8 @@
         <p>
           Hello! I’m Abdul Basit, a dedicated and passionate developer. I love
           building web applications, exploring new technologies, and solving
-          challenging problems. With a strong background in [Your
-          Skills/Experience], I’m committed to continuous learning and improving
-          my craft.
+          challenging problems. With a strong background in web development, I’m
+          committed to continuous learning and improving my craft.
         </p>
       </section>
 
@@ -38,16 +36,25 @@
           Below are some of the projects I’ve worked on. Click on the links to
           see live demos or explore the code on GitHub:
         </p>
+
+        <div class="filters">
+          <button class="filter-btn" data-category="all">All Projects</button>
+          <button class="filter-btn" data-category="javascript">
+            JavaScript
+          </button>
+          <button class="filter-btn" data-category="html-css">HTML/CSS</button>
+        </div>
+
         <ul>
-          <li>
+          <li class="project" data-category="javascript">
             <strong>Project 1</strong>: <a href="#">Dynamic Web App</a> – A
             full-stack application built with React and Node.js.
           </li>
-          <li>
+          <li class="project" data-category="html-css">
             <strong>Project 2</strong>: <a href="#">Portfolio Website</a> – A
             modern, responsive portfolio showcasing my work.
           </li>
-          <li>
+          <li class="project" data-category="javascript">
             <strong>Project 3</strong>: <a href="#">E-commerce Platform</a> – A
             scalable e-commerce site with payment integration.
           </li>
@@ -62,11 +69,12 @@
           reach out:
         </p>
         <ul>
+          <li>Email: <a href="bkbasit73@gmail.com">bkbasit73@gmail.com</a></li>
           <li>
-            Email: <a href="mailto:example@example.com">example@example.com</a>
+            LinkedIn:
+            <a href="#">https://www.linkedin.com/in/abdul-basit-56282a9a/</a>
           </li>
-          <li>LinkedIn: <a href="#">linkedin.com/in/your-profile</a></li>
-          <li>GitHub: <a href="#">github.com/your-profile</a></li>
+          <li>GitHub: <a href="#">https://github.com/bkbasit73</a></li>
         </ul>
       </section>
     </main>
